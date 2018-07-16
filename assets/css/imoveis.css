@@ -1,0 +1,395 @@
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+
+.header{
+  position: fixed;
+}
+
+.page-title {
+  position: relative;
+  padding-top: 100px;
+  animation: 1s slideInUp;
+  animation-name: slideInUp;
+}
+.title_imoveis{
+  padding-left: 88px;
+}
+
+.title_imoveis h2 {
+  letter-spacing: 3px;
+  font-size: 27px;
+}
+
+.line {
+  height: 2px;
+  width: 70px;
+  background: black;
+  transition: left 1s;
+  position: absolute;
+  top: 122px;
+  left: 0;
+}
+@media screen and (max-width: 640px) {
+  .title_imoveis{
+    padding-left: 8px;
+  }
+  .line {
+      left: -70px;
+      top: 120px;
+  }
+}
+.first-house-image{
+  width: 92%;
+  min-width: 200px;
+  transition: all 1.5s;
+}
+.first-house-image img{
+  width: 401.1px;
+  height: 244.19px;
+  transition: transform 0.8s;
+}
+.first_house:hover img {
+  transform: translateX(-12px);
+  transition: all 1.5s;
+}
+.second-house-image{
+  width: 92%;
+  min-width: 200px;
+  transition: all 1.5s;
+}
+.second-house-image img{
+  width: 423.16px;
+  height: 244.19px;
+  transition: transform 0.8s;
+}
+.second_house:hover img {
+  transform: translateX(12px);
+  transition: all 1.5s;
+}
+.third-house-image{
+  width: 92%;
+  min-width: 200px;
+  transition: all 1.5s;
+}
+.third-house-image img{
+  width: 424.65px;
+  height: 244.19px;
+  transition: transform 0.8s;
+}
+.third_house:hover img {
+  transform: translateX(-12px);
+  transition: all 1.5s;
+}
+.third_house{
+  margin-bottom: 5rem;
+}
+
+.left-side{
+  text-align: right;
+  float: right;
+}
+
+.right-side {
+  text-align: left;
+  float: left;
+}
+.text p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  LINE-HEIGHT: 20px;
+  font-size: 14px;
+  margin-bottom: 2rem;
+}
+.imoveis-button {
+  font-family: oswald-bold;
+  border: 1px solid;
+  background-color: black;
+  padding: 5px;
+  width: 110.48px;
+  height: 20.4px;
+  text-decoration: none;
+  color: white;
+  font-family: oswald-bold;
+  font-size: 13px;
+}
+
+.imoveis-button:hover {
+  background-color: #727272;
+}
+
+@media screen and (max-width: 640px) {
+  .second-house-image img{
+    order: 1;
+  }
+  .text{
+    order: 2;
+  }
+  .left-side{
+    text-align: left;
+    float:left;
+  }
+}
+
+/*
+.first_house .text p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  LINE-HEIGHT: 20px;
+  font-size: 14px;
+}
+.first_house .button{
+  margin-top:24px;
+}
+
+
+
+/* SECOND HOUSE
+
+.second_house {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.second_house img {
+  width: 423.16px;
+  height: 244.19px;
+  margin-left: 50px;
+  padding-top: 80px;
+  transition: transform 0.8s;
+}
+
+.second_house:hover img {
+  transform: translateX(12px);
+  transition: all 1.5s;
+}
+
+.second_house .text {
+  margin-left: 60px;
+  margin-top: 50px;
+  width: 404.96px;
+  height: 100%;
+  text-align: right;
+}
+
+.second_house .text p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  LINE-HEIGHT: 20px;
+  font-size: 14px;
+}
+
+.second_house .button{
+  margin-top:24px;
+  float: right;
+}
+
+
+/* THIRD HOUSE
+
+.third_house img {
+  width: 424.65px;
+  height: 244.19px;
+  margin-left: 50px;
+  padding-top: 90px;
+  transition: transform 0.8s;
+}
+
+.third_house:hover img {
+  transform: translateX(-12px);
+  transition: all 1.5s;
+}
+
+.third_house {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.third_house .text {
+  margin-left: 50px;
+  margin-top: 63px;
+  width: 404.96px;
+  height: 100%;
+  margin-bottom: 100px;
+}
+
+.third_house .text p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  LINE-HEIGHT: 20px;
+  font-size: 14px;
+}
+
+.third_house .button{
+  margin-top:24px;
+}
+
+.imoveis-button {
+  font-family: oswald-bold;
+  border: 1px solid;
+  background-color: black;
+  padding: 5px;
+  width: 110.48px;
+  height: 20.4px;
+  text-decoration: none;
+  color: white;
+  font-family: oswald-bold;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.imoveis-button:hover {
+  background-color: #727272;
+}
+
+@media screen and (max-width: 1002px) {
+  .first_house img {
+    width: 371.1px;
+    height: 204.19px;
+    margin-left: 30px;
+  }
+  .first_house .text {
+    margin-left: 20px;
+    width: 420.96px;
+  }
+  .first_house .text p {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .first_house #button {
+    margin-top: 10px;
+  }
+  .second_house img {
+    width: 393.16px;
+    height: 204.19px;
+    margin-left: 30px;
+  }
+  .second_house .text {
+    margin-left: 0px;
+    width: 420.96px;
+  }
+  .second_house .text p {
+    font-size: 12px;
+  }
+
+  .third_house img {
+    width: 371.1px;
+    height: 204.19px;
+    margin-left: 30px;
+  }
+  .third_house .text {
+    margin-left: 20px;
+    width: 420.96px;
+  }
+  .third_house .text p {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .third_house #button {
+    margin-top: 10px;
+  }
+  #button {
+    padding: 5px;
+    width: 100.48px;
+    height: 23.4px;
+  }
+  #button a {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 902px) {
+  .first_house, .second_house, .third_house {
+    flex-direction: column;
+  }
+  .first_house .text {
+    margin-left: 100px;
+    width: 444.96px;
+  }
+  .title h2 {
+    font-size: 25px;
+    margin: 0;
+  }
+  .first_house img {
+    margin-left: 100px;
+  }
+  .third_house {
+    margin: 0;
+    margin-top: 140px;
+  }
+  .third_house .text {
+    margin-left: 100px;
+    width: 444.96px;
+  }
+  .third_house img {
+    margin-left: 100px;
+    padding-top: 0;
+  }
+  .second_house .text {
+    text-align: left;
+    margin-left: 100px;
+    order: 2;
+  }
+  .second_house img {
+    margin-left: 100px;
+  }
+  .second_house .button {
+    float: left;
+  }
+}
+
+@media screen and (max-width: 602px) {
+  .first_house img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 341.1px;
+    height: 174.19px;
+  }
+  .first_house .text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+    .first_house .text p{
+      font-size: 13px;
+    }
+  .second_house img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 341.1px;
+    height: 174.19px;
+  }
+  .second_house .text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+  .second_house .text p{
+    font-size: 13px;
+  }
+  .second_house #button {
+    margin-left: 0px;
+  }
+  .third_house img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 341.1px;
+    height: 174.19px;
+  }
+  .third_house .text {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    width: 80%;
+  }
+  .third_house .text p{
+    font-size: 13px;
+  }
+}

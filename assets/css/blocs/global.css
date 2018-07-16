@@ -1,0 +1,40 @@
+html, body{
+  margin: 0px;
+  scroll-behavior: smooth;
+  background-color: #F5F5F5;
+}
+
+
+.container-fluid {
+    padding-right: 2rem;
+    padding-left: 2rem;
+
+}
+
+.page-section{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+      animation: 2s containerIn;
+}
+
+@keyframes containerIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}

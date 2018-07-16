@@ -1,0 +1,489 @@
+
+.page-title {
+  position: relative;
+  padding-top: 100px;
+  animation: 1s slideInUp;
+  animation-name: slideInUp;
+}
+.title_team{
+
+    padding-left: 88px;
+}
+.line {
+  height: 2px;
+  width: 70px;
+  background: black;
+  transition: left 1s;
+  position: absolute;
+  top: 122px;
+  left: 0;
+  animation: 1s slideInUp;
+  animation-name: slideInUp;
+}
+@media screen and (max-width: 640px) {
+  .title_team{
+    padding-left: 8px;
+  }
+  .line {
+      left: -70px;
+      top: 120px;
+  }
+  .team{
+    padding-left:8px;
+  }
+}
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+.whoarewe p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  text-align: left;
+}
+
+.whoarewe img {
+  width: 347.29px;
+  height: 463.05px;
+}
+
+@media screen and (max-width: 750px) {
+  .whoarewe img {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .whoarewe img {
+    width: 307.29px;
+    height: 423.05px;
+    margin-top: 30px;
+  }
+}
+
+.team{
+  padding-left:70px;
+}
+.team p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+@import "compass/css3";
+.flex-container1 {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.flex-container2 {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.flex-item {
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .flex-container1,  .flex-container2{
+      justify-content: flex-start;
+      margin-left: 50px;
+  }
+}
+
+/*
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+}
+
+.title {
+  padding-left: 130px;
+  padding-top: 100px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  animation: 1s slideInUp;
+  animation-name: slideInUp;
+
+}
+
+.title h2 {
+  letter-spacing: 3px;
+  padding-left: 95px;
+  padding-bottom: 60px;
+  font-size: 30px;
+  margin: 0;
+}
+
+
+.whoarewe img {
+  width: 347.29px;
+  height: 463.05px;
+  margin-left: 10%;
+  margin-right: 5%;
+  transition: transform 0.8s;
+}
+
+.whoarewe p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  width: 40%;
+  height: 100%;
+  font-size: 15px;
+  margin-left: 220px;
+  margin-bottom: 50px;
+}
+
+.whoarewe {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.line-top {
+  height: 2px;
+  width: 70px;
+  background: black;
+  position: absolute;
+  z-index: 11;
+  top: 124px;
+  left: 134px;
+  animation: 1s slideInUp;
+  animation-name: slideInUp;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  animation: 2s containerIn;
+}
+
+
+@media screen and (width: 1440px) {
+  .container {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 1032px) {
+  .whoarewe img {
+    width: 307.29px;
+    height: 423.05px;
+  }
+  .whoarewe {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .title {
+    padding-left: 100px;
+    padding-top: 150px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    animation: 1s slideInUp;
+    animation-name: slideInUp;
+
+  }
+
+  .title h2 {
+    letter-spacing: 3px;
+    padding-left: 20px;
+    padding-bottom: 60px;
+    font-size: 30px;
+    margin: 0;
+  }
+
+
+  .whoarewe img {
+    width: 347.29px;
+    height: 463.05px;
+    margin-left: 10%;
+    margin-right: 5%;
+    transition: transform 0.8s;
+  }
+
+  .whoarewe p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    width: 40%;
+    height: 100%;
+    font-size: 15px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
+
+  .whoarewe {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .line-top {
+    height: 2px;
+    width: 70px;
+    background: black;
+    position: absolute;
+    z-index: 11;
+    top: 174px;
+    left: 34px;
+    animation: 1s slideInUp;
+    animation-name: slideInUp;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+
+  .title h2 {
+    letter-spacing: 3px;
+    padding-left: 20px;
+    padding-bottom: 60px;
+    font-size: 30px;
+    margin: 0;
+  }
+
+
+  .whoarewe img {
+    width: 347.29px;
+    height: 463.05px;
+    margin-left: 14%;
+    margin-right: 5%;
+    transition: transform 0.8s;
+  }
+
+  .whoarewe p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    width: 75%;
+    height: 100%;
+    font-size: 15px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
+
+  .whoarewe {
+    flex-direction: column;
+  }
+
+  .line-top {
+    height: 2px;
+    width: 70px;
+    background: black;
+    position: absolute;
+    z-index: 11;
+    top: 174px;
+    left: 34px;
+    animation: 1s slideInUp;
+    animation-name: slideInUp;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    padding-left: 50px;
+        padding-top: 100px;
+  }
+  .line-top {
+    left: 0;
+    top: 120px;
+    width: 50px;
+  }
+  .whoarewe p {
+    font-size: 13px;
+    margin-left: 65px;
+  }
+  .title h2 {
+    font-size: 25px;
+  }
+  .whoarewe img {
+    margin-top: 30px;
+    width: 297.29px;
+    height: 413.05px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .whoarewe img {
+    width: 247.29px;
+    height: 363.05px;
+  }
+}
+/* TEAM
+
+.title_team {
+  width: 100%;
+  padding-top: 150px;
+  padding-left: 130px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
+.title_team h2 {
+  letter-spacing: 3px;
+  padding-left: 95px;
+  padding-bottom: 30px;
+  font-size: 30px;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+.container-line{
+  width: 100%;
+  display: flex;
+  top: 175px;
+}
+
+.line-down {
+  height: 2px;
+  width: 70px;
+  background: black;
+  position: absolute;
+  z-index: 11;
+  top: 4px;
+  left: 134px;
+
+}
+
+.team p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  width: 380px;
+  height: 100%;
+  font-size: 15px;
+  margin-left: 90px;
+  margin-bottom: 50px;
+}
+
+
+@media screen and (max-width: 960px) {
+  .title img {
+    width: 250.29px;
+    height: 360.05px;
+  }
+  .team  p {
+    font-size: 13px;
+    margin-left: 30px;
+    width: 70%;
+  }
+  .title_team {
+    width: 60%;
+  }
+  .title_team h2 {
+    letter-spacing: 3px;
+    padding-left: 35px;
+    padding-bottom: 60px;
+    font-size: 30px;
+    margin: 0;
+  }
+  .line-down {
+    top: 0px;
+    left: 74px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .team p {
+    width: 100%;
+  }
+  .title_team {
+    width: 80%;
+  }
+
+  .title img {
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .title_team {
+    padding-left: 30px;
+  }
+  .line-down {
+    left: 0px;
+    width: 50px;
+  }
+
+  .team p {
+    font-size: 13px;
+  }
+  .title_team h2 {
+    font-size: 25px;
+  }
+  .title img {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    height: 100%;
+  }
+}
+
+@import "compass/css3";
+.flex-container1 {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.flex-container2 {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.flex-item {
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .flex-container1,  .flex-container2{
+      justify-content: flex-start;
+      margin-left: 50px;
+  }
+}

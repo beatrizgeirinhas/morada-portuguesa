@@ -1,0 +1,75 @@
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  margin:0;
+}
+
+.page-title {
+  position: relative;
+  padding-top: 100px;
+  animation: 1s slideInUp;
+  animation-name: slideInUp;
+}
+.title_pt{
+  padding-left: 88px;
+}
+.line {
+  height: 2px;
+  width: 70px;
+  background: black;
+  transition: left 1s;
+  position: absolute;
+  top: 122px;
+  left: 0;
+  animation: 1s slideInUp;
+  animation-name: slideInUp;
+}
+@media screen and (max-width: 640px) {
+  .title_pt{
+    padding-left: 8px;
+  }
+  .line {
+      left: -70px;
+      top: 120px;
+  }
+}
+.card p{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: left;
+}
+.image{
+    margin-bottom: 5rem;
+}
+.image img{
+  width: 80%;
+  height: 100%;
+  max-width: 550px;
+}
+
+.viver-text {
+  max-width: 550px;
+  margin-left: 48px;
+  margin-right: 48px;
+  width: 100%;
+}
+.viver-text p {
+  font-size: 16px;
+}
+.viver-title {
+  font-size: 72px;
+  line-height: 120%;
+}
+@media screen and (max-width: 480px) {
+  .viver-title {
+    font-size: 48px;
+  }
+}
+
+.viver-desc i {
+  font-size: 12px;
+}
+p.viver-desc {
+  font-size: 12px;
+}
