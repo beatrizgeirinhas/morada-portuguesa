@@ -8,6 +8,7 @@
   height: 80vh;
   padding-top: 0rem;
 }
+
 .title h2 {
   letter-spacing: 3px;
   font-size: 50px;
@@ -16,66 +17,85 @@
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
 }
-.title_fontana{
+
+.title_fontana {
   display: flex;
 }
+
 .line {
   height: 3px;
   width: 600px;
   background: white;
 }
+
 .box {
   padding-top: 3rem;
   padding-bottom: 0rem;
 }
-.box h2{
+
+.box h2 {
   font-size: 35px;
   margin: 0;
   letter-spacing: 1px;
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
 }
-.location,.location-details, .description-c {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 20px;
+
+.location {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 20px;
 }
-.description{
+
+.location-details, .description-c {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.description {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 25px;
 }
+
 .location-details {
   background-color: #1F1F1F;
   color: white;
 
 }
-.location-details img{
+
+.location-details img {
 width: 100%;
 height: 100%;
 }
-.location-details p{
+@media screen and (max-width: 1000px) {
+  .location-details img {
+  height: 90%;
+  }
+  .bla{
+    height: 50%;
+  }
+}
+.location-details p {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 16px;
   margin-left: 40px;
   margin-right: 40px;
+  text-align: left;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
-.left{
-  margin-top: 65px;
+
+@media screen and (max-width: 640px) {
+  .location-details p {
+  font-size: 12px;
+  }
 }
-.images{
-  margin-bottom: 5rem;
-}
-.smallones img{
-  width: 257.53px;
-  height: 133.45px;
-}
-.bigones img{
-  width: 386.07px;
-  height: 289.55px;
-}
+
 .form h2:nth-child(1) {
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
@@ -91,17 +111,22 @@ height: 100%;
   font-size: 30px;
   margin: 0;
 }
-.contact h4, .send_mail h4{
-    font-family: 'Oswald', sans-serif;
-    font-weight: 700;
-    color: black;
-    font-size: 16px;
+.contact, .send_mail{
+  margin-top: 40px;
 }
-.contact p, .send_mail label{
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    font-size: 13px;
+.contact h4, .send_mail h4 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  color: black;
+  font-size: 16px;
 }
+
+.contact p, .send_mail label {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+}
+
 label {
   font-family: lato-light;
   font-size: 13px;
@@ -109,6 +134,7 @@ label {
   display: flex;
   flex-direction: column;
   margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 input:focus, textarea:focus {
@@ -124,6 +150,7 @@ input, textarea {
   padding: 0 10px;
   margin: 0;
   width: 240px;
+  height: 20px;
   background: none;
   border-bottom: 1px solid #646464;
 }
@@ -148,13 +175,32 @@ button {
   font-family: oswald-bold;
   font-size: 13px;
   margin-bottom: 5rem;
+    margin-top: 1rem;
 }
 
 button:hover {
   background-color: #727272;
 }
 
+.smallones img {
+  width: 257.53px;
+  height: 133.45px;
+}
 
+.bigones img {
+  margin-top: 40px;
+  width: 236.07px;
+  height: 139.55px;
+}
+
+.tags {
+  margin-bottom: 5rem;
+}
+
+.tags p {
+  font-size: 10px;
+  font-weight: 700;
+}
 
 /*
 .title {

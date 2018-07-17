@@ -83,10 +83,23 @@ h2 {
   transform: translateX(-12px);
   transition: all 1.5s;
 }
-.third_house{
+.fourth_house{
   margin-bottom: 5rem;
 }
-
+.fourth-house-image{
+  width: 92%;
+  min-width: 200px;
+  transition: all 1.5s;
+}
+.fourth-house-image img{
+  width: 423.16px;
+  height: 244.19px;
+  transition: transform 0.8s;
+}
+.fourth_house:hover img {
+  transform: translateX(12px);
+  transition: all 1.5s;
+}
 .left-side{
   text-align: right;
   float: right;

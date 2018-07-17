@@ -84,7 +84,12 @@ h2 {
   width: 223px;
   height: 150px;
 }
-
+.BF13:hover img, .FontanaResidence:hover img, .MariaBaptista:hover img {
+opacity: 0.6;
+}
+.onemore:hover img {
+  opacity: 0.2;
+}
 .search {
   background-color: #1F1F1F;
   height: 100%;
@@ -103,6 +108,9 @@ h2 {
   line-height: 16px;
     letter-spacing: 0.05em;
 }
+.onemore{
+    position: relative;
+}
 .onemore img {
   opacity: 0.5;
 }
@@ -112,8 +120,11 @@ h2 {
   font-weight: 600;
   text-decoration: none;
   color: white;
+  position: absolute;
+  top: 60px;
+  left: 78px;
 }
-@media screen and (max-width: 1172px) {
+@media screen and (max-width: 1202px) {
 .onemore{
   display: none;
 }
@@ -159,7 +170,7 @@ h2 {
   background-color: #e8e8e8;
   padding: 30px;
   font-size: 15px;
-  height: 40%;
+
 }
 .line {
   height: 2px;
