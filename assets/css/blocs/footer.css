@@ -42,6 +42,7 @@ footer {
 
 .place p, .telefone p, .mail p {
   margin: 5px;
+  font-family: 'Lato', sans-serif;
 }
 
 .social-network {
