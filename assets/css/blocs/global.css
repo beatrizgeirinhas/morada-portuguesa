@@ -1,7 +1,12 @@
+* {
+  font-family: 'Oswald', sans-serif;
+}
+
 html, body{
   margin: 0px;
   scroll-behavior: smooth;
   background-color: #F5F5F5;
+  font-family: 'Oswald', sans-serif;
 }
 
 
