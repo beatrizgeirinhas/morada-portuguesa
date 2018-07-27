@@ -43,24 +43,6 @@
   background-color: grey;
 }
 
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 40px;
-  margin-left: 100px;
-  width: 100%;
-  text-align: center;
-}
-@media screen and (max-width: 640px) {
-  .text {
-    font-size: 12px;
-
-  }
-}
-
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
