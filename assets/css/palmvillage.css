@@ -14,6 +14,74 @@
     display: flex;
     justify-content: flex-end;
 }
+
+.col-xxs-12.col-xs-7.col-sm-9 .description-c {
+  max-width: 600px;
+  width: 100%;
+}
+
+.col-xxs-12.col-xs-10.col-sm-12.col-md-6.left.center-xxs p {
+  max-width: 450px;
+}
+
+.interact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  cursor: pointer;
+}
+
+.interact .prev, .interact .next {
+  width: 48px;
+  height: 48px;
+  background: lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+.slideshow-container {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  margin-top: -64px;
+  margin-bottom: 64px;
+}
+.slideshow-container .mySlides {
+  width: 100%;
+  max-width: 600px;
+}
+.slideshow-container .mySlides img {
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Caption text */
+.text {
+  font-size: 15px;
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+  .text {
+    font-size: 12px;
+
+  }
+}
+
 /* Next & previous buttons
 .prev, .next {
   cursor: pointer;
