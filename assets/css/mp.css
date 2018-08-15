@@ -1,6 +1,55 @@
+.firstimage{
+  background-image: url("../images/mariabaptista/quarto2_Maria.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+.secondimage{
+  background-image: url("../images/mariabaptista/Sala1_Maria.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+.thirdimage{
+  background-image: url("../images/mariabaptista/Setubal_ext_frenteMaria.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+.fourthimage{
+  background-image: url("../images/mariabaptista/quarto1_Maria.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+.fifthimage{
+  background-image: url("../images/mariabaptista/Sala2_Maria.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+.siximage{
+  background-image: url("../images/mariabaptista/cozinha_Maria.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+
   position: relative;
   margin: auto;
 }
@@ -15,8 +64,9 @@
     display: none;
 }
 
+
+
 .col-xxs-12.col-xs-7.col-sm-9 .description-c {
-  max-width: 600px;
   width: 100%;
 }
 
@@ -39,7 +89,7 @@
 .interact .prev, .interact .next {
   width: 48px;
   height: 48px;
-  background: lightgrey;
+  background: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,32 +97,33 @@
 }
 
 .slideshow-container {
-  height: 600px;
+  height: calc(100vh + 32px);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-width: 600px;
   margin-top: -64px;
   margin-bottom: 64px;
 }
 .slideshow-container .mySlides {
   width: 100%;
-  max-width: 600px;
 }
 .slideshow-container .mySlides img {
   width: 100%;
-  max-width: 600px;
 }
-
 /* Caption text */
 .text {
   font-size: 15px;
-  position: absolute;
-  bottom: 40px;
-  width: 100%;
-  text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
 }
 
 @media screen and (max-width: 640px) {
@@ -126,25 +177,6 @@
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
-}
-.title {
-  background-image: url("../images/Setubal_Exterior2_RF.png");
-  background-size: cover;
-  background-position: center;
-  box-sizing: border-box;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 80vh;
-  padding-top: 0rem;
-}
-
-.title h2 {
-  letter-spacing: 3px;
-  font-size: 50px;
-  margin: 0;
-  color: white;
-  font-family: 'Oswald', sans-serif;
-  font-weight: 700;
 }
 
 .title_fontana {
@@ -312,22 +344,21 @@ button:hover {
   background-color: #727272;
 }
 
-.smallones img {
-  width: 257.53px;
-  height: 133.45px;
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+th {
+    text-align: left;
+}
+td{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
 }
 
-.bigones img {
-  margin-top: 40px;
-  width: 236.07px;
-  height: 139.55px;
-}
-
-.tags {
-  margin-bottom: 5rem;
-}
-
-.tags p {
-  font-size: 10px;
-  font-weight: 700;
+.wa_btn_l{
+height: 30%;
 }
