@@ -172,9 +172,7 @@ h2 {
 .third_house:hover  .coment{
       opacity: 1;
 }
-.fourth_house{
-  margin-bottom: 5rem;
-}
+
 .fourth-house-image{
   width: 92%;
   min-width: 200px;
@@ -190,6 +188,26 @@ h2 {
   transition: all 1.5s;
 }
 .fourth_house:hover  .coment2{
+      opacity: 1;
+}
+.fifth_house{
+    margin-bottom: 5rem;
+}
+.fifth_house-image{
+  width: 92%;
+  min-width: 200px;
+  transition: all 1.5s;
+}
+.fifth_house-image img{
+  width: 424.65px;
+  height: 244.19px;
+  transition: transform 0.8s;
+}
+.fifth_house:hover img {
+  transform: translateX(-12px);
+  transition: all 1.5s;
+}
+.fifth_house:hover  .coment{
       opacity: 1;
 }
 .left-side{

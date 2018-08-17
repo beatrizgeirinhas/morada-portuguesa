@@ -20,6 +20,7 @@
   animation: 1s slideInUp;
   animation-name: slideInUp;
 }
+
 @media screen and (max-width: 640px) {
   .title_team{
     padding-left: 8px;
@@ -47,6 +48,9 @@ h2 {
 .whoarewe img {
   width: 347.29px;
   height: 463.05px;
+}
+.bold{
+    font-weight: 800;
 }
 
 @media screen and (max-width: 750px) {

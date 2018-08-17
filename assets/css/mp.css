@@ -183,16 +183,6 @@
   display: flex;
 }
 
-.line {
-  height: 3px;
-  width: 600px;
-  background: white;
-}
-
-.box {
-  padding-top: 3rem;
-  padding-bottom: 0rem;
-}
 
 .box h2 {
   font-size: 35px;

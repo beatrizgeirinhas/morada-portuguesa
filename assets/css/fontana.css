@@ -169,10 +169,6 @@
   background: white;
 }
 
-.box {
-  padding-top: 3rem;
-  padding-bottom: 0rem;
-}
 
 .box h2 {
   font-size: 35px;
@@ -342,4 +338,22 @@ button:hover {
 .tags p {
   font-size: 10px;
   font-weight: 700;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+th {
+    text-align: left;
+}
+td{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+.wa_btn_l{
+height: 30%;
 }
