@@ -1,3 +1,9 @@
+.animation{
+    animation-name: containerIn;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
 * {
   font-family: 'Oswald', sans-serif;
 }
@@ -19,7 +25,10 @@ html, body{
 .page-section{
   padding-top: 2rem;
   padding-bottom: 2rem;
-      animation: 2s containerIn;
+}
+
+p{
+  margin: 0;
 }
 
 @keyframes containerIn {

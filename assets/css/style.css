@@ -101,7 +101,8 @@ opacity: 0.6;
   padding-left: 2rem;
 }
 
-.content {  font-family: 'Lato', sans-serif;
+.content {
+  font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 12px;
 }
@@ -109,7 +110,9 @@ opacity: 0.6;
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
   line-height: 16px;
-    letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .onemore{
     position: relative;
@@ -154,6 +157,7 @@ opacity: 0.6;
   font-weight: 700;
   width: 50px;
   color: black;
+  margin-top: 20px;
 }
 
 #button a {
@@ -171,6 +175,7 @@ opacity: 0.6;
 .card .content{
   background-color: #e8e8e8;
   padding: 30px;
+    margin-bottom: 50px;
   font-size: 15px;
   font-family: 'Lato', sans-serif;
   font-weight: 300;

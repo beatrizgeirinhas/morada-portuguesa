@@ -49,7 +49,6 @@
 
 /* Slideshow container */
 .slideshow-container {
-
   position: relative;
   margin: auto;
 }
@@ -132,34 +131,13 @@
 
   }
 }
-
-/* Next & previous buttons
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+.rectangle{
+  width: 194px;
+  height: 24px;
+  border: 3px solid #000;
+  padding: 5px;
+  margin-bottom: 32px;
 }
-
-/* Position the "next button" to the right
-.next {
-  left: 450px;
-  border-radius: 3px 0 0 3px;
-}
-
-
-/* On hover, add a black background color with a little bit see-through
-.prev:hover, .next:hover {
-  background-color: grey;
-}
-
 
 /* Fading animation */
 .fade {
@@ -190,6 +168,7 @@
   letter-spacing: 1px;
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
+  margin-bottom:5px;
 }
 
 .location {
@@ -197,6 +176,7 @@
   font-weight: 300;
   font-size: 13px;
   line-height: 20px;
+  margin-bottom: 30px;
 }
 
 .location-details, .description-c {
@@ -210,6 +190,7 @@
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 25px;
+  margin-bottom: 4px;
 }
 
 .location-details {
@@ -277,6 +258,9 @@ height: 100%;
   font-weight: 300;
   font-size: 13px;
 }
+.contact p{
+  padding-bottom: 20px;
+}
 
 label {
   font-family: 'Lato', sans-serif;
@@ -307,7 +291,7 @@ input, textarea {
   border-bottom: 1px solid #646464;
 }
 
-textarea {
+#message textarea{
   padding: 10px;
   width: 240px;
   height: 100px;

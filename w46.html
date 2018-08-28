@@ -106,6 +106,7 @@
     <section class="page-section">
       <div class="row box">
         <div class="col-xxs-12 col-xs-7 col-sm-9">
+                    <p class="rectangle">Vendas a partir de 440.000,00 €  </p>
           <h2> W46 -  A vista mais bela de Lisboa </h2>
           <p class="location"> Lisboa </p>
           <p class="description">Lisboa, é uma das cidades mais seguras do mundo e que proporciona uma excelente qualidade de vida com um charme sedutor. É nessa cidade de tantos encantos que se situa o edifício W46.
@@ -151,26 +152,25 @@
         </div>
         <div class=" col-xxs-12 col-xs-6 col-sm-6 col-md-4 send_mail">
           <h4> Enviar mensagem </h4>
-          <form>
+          <form method="POST" action="https://formspree.io/geirinhas.beatriz@gmail.com">
             <div id="from">
-              <label for="name">Nome</label>
-              <input type="text" id="name" name="user_name">
+              <label class="m-bottom-small">Nome</label>
+              <input type="email" name="nome" placeholder="">
             </div>
             <div id="nmr">
-              <label for="name">Número</label>
-              <input type="text" id="numero" name="user_name">
+              <label class="m-bottom-small">Número</label>
+              <textarea name="numero" placeholder=""></textarea>
             </div>
             <div id="reply">
-              <label for="mail">Email</label>
-              <input type="email" id="mail" name="user_email">
+              <label class="m-bottom-small">Email</label>
+              <textarea name="email" placeholder=""></textarea>
             </div>
             <div id="message">
-              <label for="msg">Mensagem</label>
-              <textarea id="msg" name="user_message"></textarea>
+              <label class="m-bottom-small">Mensagem</label>
+              <textarea name="message" placeholder=""></textarea>
             </div>
-            <div class="button">
-              <button type="submit">Enviar</button>
-            </div>
+
+            <button class="button" type="submit">Enviar</button>
           </form>
         </div>
           <div class=" col-xxs-12 col-xs-6 col-sm-6 col-md-4 send_mail">

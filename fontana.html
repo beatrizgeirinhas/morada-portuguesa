@@ -73,13 +73,14 @@
         <section class="page-section">
             <div class="row box">
                 <div class="col-xxs-12 col-xs-7 col-sm-9">
+                            <p class="rectangle">Vendas a partir de 365.000,00 € </p>
                     <h2>Fontana Residence – No coração de Lisboa </h2>
                     <p class="location"> Lisboa </p>
                     <p class="description">Ao pisar em Lisboa, cada passo conta uma história. </p>
                     <p class="description-c">A cidade das sete colinas tem uma identidade distinta. Exímios na exploração dos oceanos, os portugueses trouxeram sabores de todos os cantos do mundo razão pela qual todos se sentem em casa e têm algo com o que se identificar.
 
                         <br>O Fontana Residence é caracterizado por ser uma construção dos finais dos anos 50, com uma linguagem própria desse período de transição entre a arquitetura monumentalizada e uniformizada do Estado Novo e o movimento de ruptura
-                        da linguagem arquitetónica iniciado nos anos 60. <br><br>O edifício é constituído por 7 andares acima da rua e um abaixo, num total de 15 apartamentos.</p>
+                        da linguagem arquitetónica iniciado nos anos 60. <br>O edifício é constituído por 7 andares acima da rua e um abaixo, num total de 15 apartamentos.</p>
             </div>
         </section>
     </div>
@@ -115,29 +116,30 @@
                 <div class="col-xxs-12 col-xs-4 col-sm-3 col-md-2 contact">
                     <h4> Contato </h4>
                     <p> +352 746 746 273 </p>
+                    <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fjeknowledge.github.io%2Fmorada-portuguesa%2F&layout=button&size=large&mobile_iframe=true&width=73&height=28&appId" width="93" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                    <a href="whatsapp://send" data-text="Morada Portuguesa" data-href="" class="wa_btn wa_btn_l" style="display:none">Whatsapp</a>
                 </div>
                 <div class=" col-xxs-12 col-xs-6 col-sm-6 col-md-4 send_mail">
                     <h4> Enviar mensagem </h4>
-                    <form>
-                        <div id="from">
-                            <label for="name">Nome</label>
-                            <input type="text" id="name" name="user_name">
-                        </div>
-                        <div id="nmr">
-                            <label for="name">Número</label>
-                            <input type="text" id="numero" name="user_name">
-                        </div>
-                        <div id="reply">
-                            <label for="mail">Email</label>
-                            <input type="email" id="mail" name="user_email">
-                        </div>
-                        <div id="message">
-                            <label for="msg">Mensagem</label>
-                            <textarea id="msg" name="user_message"></textarea>
-                        </div>
-                        <div class="button">
-                            <button type="submit">Enviar</button>
-                        </div>
+                    <form method="POST" action="https://formspree.io/geirinhas.beatriz@gmail.com">
+                      <div id="from">
+                        <label class="m-bottom-small">Nome</label>
+                        <input type="email" name="nome" placeholder="">
+                      </div>
+                      <div id="nmr">
+                        <label class="m-bottom-small">Número</label>
+                        <textarea name="numero" placeholder=""></textarea>
+                      </div>
+                      <div id="reply">
+                        <label class="m-bottom-small">Email</label>
+                        <textarea name="email" placeholder=""></textarea>
+                      </div>
+                      <div id="message">
+                        <label class="m-bottom-small">Mensagem</label>
+                        <textarea name="message" placeholder=""></textarea>
+                      </div>
+
+                      <button class="button" type="submit">Enviar</button>
                     </form>
                 </div>
                 <div class=" col-xxs-12 col-xs-6 col-sm-6 col-md-4 ">
@@ -233,7 +235,7 @@
             </div>
         </div>
     </footer>
-    <script src="assets/js/nav.js"></script>
+  <script type="text/javascript">if(typeof wabtn4fg==="undefined"){wabtn4fg=1;h=document.head||document.getElementsByTagName("head")[0],s=document.createElement("script");s.type="text/javascript";s.src="assets/js/whatsapp-button.js";h.appendChild(s);}</script>
     <script src="assets/js/index.js"></script>
 
 

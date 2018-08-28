@@ -47,15 +47,10 @@
 }
 
 .slideshow-container {
-  height: 600px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  height: 200px;
   width: 100%;
   max-width: 600px;
-  margin-top: -64px;
-  margin-bottom: 64px;
+  margin-top: 64px;
 }
 .slideshow-container .mySlides {
   width: 100%;
@@ -139,6 +134,7 @@
 }
 .slider__contents {
   height: 100%;
+  background-color: whitesmoke;
   text-align: center;
   display: -webkit-box;
   display: -webkit-flex;
@@ -160,11 +156,11 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
+
 .slider__image {
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 2.7rem;
-
 }
 .slider__caption {
   font-weight: 500;
@@ -177,9 +173,20 @@
   font-weight: 400;
   color: #999;
   margin-bottom: 3rem;
-  max-width: 300px;
+  max-width: 700px;
+  text-align: left;
 }
 
+@media screen and (max-width: 640px) {
+.slider__txt{
+    font-size: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.slider__caption{
+  font-size: 20px;
+}
+}
 @-webkit-keyframes check {
   50% {
     outline-color: #333;
@@ -267,14 +274,8 @@ h2 {
   max-width: 550px;
 }
 
-.viver-text {
-  max-width: 550px;
-  margin-left: 48px;
-  margin-right: 48px;
-  width: 100%;
-}
 .viver-text p {
-  font-size: 16px;
+  font-size: 18px;
 }
 .viver-title {
   font-size: 72px;
@@ -283,6 +284,11 @@ h2 {
 @media screen and (max-width: 480px) {
   .viver-title {
     font-size: 48px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .viver-text p {
+    font-size: 14px;
   }
 }
 
